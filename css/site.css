@@ -1,0 +1,146 @@
+/* CSS Document */
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #9966CC;
+	background-color:#CCCCCC;
+	/*background-color:#336633;*/
+	/*background-image:url(../images/Em1.jpeg);*/
+}
+
+#container {
+	position: relative;
+	margin: 20px auto;
+	width: 780px;
+	height: 100%;/*auto;*/
+	background-color: #FFFF99;
+	margin-right: auto;
+	margin-left: auto;
+	border: thin solid #000000;
+	z-index: 1;
+}
+
+#menulayer {
+	/*position: relative;*/
+	left:130px;
+	top:167px;
+	width:718px;
+	height:36px;
+	z-index:2;
+	text-align:center;
+	
+}
+
+#banner {
+	/*position: absolute;*/
+	left:130px;
+	top:56px;
+	width:779px;
+	height:103px;
+	z-index:2;
+	/*border: thin dashed #000000;*/
+}
+
+#signup {
+	left:130px;
+	top:220px;
+	width:260px;
+	height:300px;
+}
+
+#bodyLayer {
+	width:766px;
+	height:100%;
+	left:auto;
+	margin: 5px;
+	background-color:#245080; /*#66CCFF;*/
+	color:#99CC99;
+	padding:2px;
+}
+
+#userlayer {
+	height:100px;
+	left:130px;
+	margin: 5px;
+	background-color:#f3ba68 /*#FFFF00*/;
+	padding:2px;
+}
+
+/*.roster {
+	color:#245080;
+}*/
+
+.microtime {
+	text-align:center;
+}	
+/* menu style */
+.menu {
+  padding:0; 
+  margin:0; 
+  list-style-type:none;
+  white-space:nowrap;
+}
+.menu li {
+  float:left;
+  min-width:100px;
+}
+.menu a {
+  position:relative;
+  display:block; 
+  text-decoration:none; 
+  min-width:100px; /*100px*/
+  float:left; /*/left*/ 
+}
+* html .menu a {
+  width:100px;
+}
+.menu a span {
+  display:block; 
+  color:#000; 
+  background:#c4c4c4; 
+  border:1px solid #fff; 
+  border-width:2px 1px; 
+  text-align:center; 
+  padding:4px 16px; 
+  cursor:pointer;
+}
+* html .menu a span {
+  width:100px; 
+  /*cursor:hand;*/ 
+  width:66px;
+}
+.menu a b {
+  display:block; 
+  border-bottom:2px solid #06a;
+}
+.menu a em {
+  display:none;
+}
+.menu a:hover {
+  background:#fff;
+}
+.menu a:hover span {
+  color:#fff; 
+  background:#08c;
+}
+.menu a:hover em {
+  display:block; 
+  overflow:hidden; 
+  border:6px solid #06a; 
+  border-color:#06a #fff; 
+  border-width:6px 6px 0 6px; 
+  position:absolute; 
+  left:50%; 
+  margin-left:-6px;
+}
+/* end of menu */
+
+#rosterList {
+	margin-left: 10em;
+	list-style:disc;
+}
+
+.padMeUp {	
+	margin-bottom: 5em;
+}
